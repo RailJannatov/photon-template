@@ -1,0 +1,368 @@
+#intro {
+    background-image: linear-gradient(45deg, #9DC66A 5%, #4fa49a 30%, #4361c2);
+    padding: 80px 0;
+    height: 590px;
+    background-attachment: fixed;
+
+}
+
+#intro .intro-icon {
+    margin-bottom: 29px;
+}
+
+#intro .intro-title {
+    margin-bottom: 73px;
+}
+
+#intro .intro-icon i {
+    color: #fff;
+    font-size: 64px;
+}
+
+#intro .intro-text .intro-title h2 {
+    color: #fff;
+    font: inherit;
+    font-size: 2.25em;
+    margin-bottom: 20px;
+}
+
+#intro .intro-text .intro-title .intro-paragraph {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    line-height: 34px;
+    color: #fff;
+    margin: 1em 0 0;
+}
+
+#intro .intro-text .intro-button {
+    position: relative;
+}
+
+#intro .intro-text .intro-button button {
+    padding: 9px 37px;
+    font-size: 0.9em;
+    font-weight: 400;
+}
+
+#intro .intro-text .intro-button .line:after {
+    content: "";
+    width: 1px;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    background: #ffffff;
+    height: 155px;
+}
+
+#intro .intro-text .intro-title .title-link {
+    color: #fff;
+}
+
+#intro .intro-text .intro-title .title-link:hover {
+    text-decoration: none;
+}
+
+#about-lorem {
+    padding: 80px 0;
+}
+
+#about-lorem .lorem-title {
+    padding: 0px 62px;
+}
+
+#about-lorem .lorem-title h1 {
+    font: inherit;
+    font-size: 2em;
+    line-height: 1.35em;
+    position: relative;
+}
+
+#about-lorem .lorem-title .lorem-paragraph {
+    margin-top: 72px;
+}
+
+
+#about-lorem .lorem-title h1:after {
+    content: "";
+    width: 17%;
+    position: absolute;
+    height: 1px;
+    background: gray;
+    top: 100%;
+    left: 0%;
+    margin-top: 43px;
+}
+
+#icons {
+    background-image: url(/assets/image/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 128px 0;
+}
+
+#icons .icon-item {
+    height: 150px;
+    width: 150px;
+    border: 1px solid #fff;
+    transform: rotate(45deg);
+    margin-bottom: 98px;
+
+
+}
+
+#icons .first-icon-side {
+    padding-left: 80px;
+}
+
+#icons .icon-item i {
+    transform: rotate(-45deg) translate(-25px, 22px);
+    color: #8f8f21;
+    font-size: 65px;
+}
+
+
+
+#icons .right-side-col p {
+    margin-bottom: 2em;
+    font: inherit;
+    color: #fff;
+    font-size: 18px;
+    margin-top: 51px;
+}
+
+#icons .right-side-col h2 {
+    color: gray;
+}
+
+#icons .right-side-col .after-line {
+    position: relative;
+}
+
+#icons .right-side-col .after-line:after {
+    content: "";
+    width: 20%;
+    height: 1px;
+    background-color: #d3c2c2;
+    position: absolute;
+    top: 100%;
+    margin-top: 26px;
+    left: 0%;
+}
+
+#adispising {
+    padding: 40px 0;
+}
+
+#adispising .adispising-title h2 {
+    font-size: 2em;
+    line-height: 1.35em;
+    margin-bottom: 2em;
+    position: relative;
+}
+
+#adispising .adispising-title p {
+    font-size: 18px;
+}
+
+#adispising .adispising-title h2:after {
+    content: "";
+    width: 9%;
+    height: 2px;
+    background-color: #d3c2c2;
+    position: absolute;
+    top: 91%;
+    margin-top: 31px;
+    left: 45%;
+}
+
+#adispising .border-none {
+    border: none;
+}
+
+#adispising .card-image,
+.card-title {
+    margin: 0 0 2em 0;
+}
+
+
+#adispising .card .card-button button {
+    padding: 9px 26px;
+}
+
+#feuigat {
+    background-image: url(/assets/image/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 4rem 0;
+}
+
+#feuigat .feuigat-title h2 {
+    position: relative;
+    margin-bottom: 5rem;
+}
+
+#feuigat .feuigat-title h2:after {
+    content: "";
+    width: 9%;
+    height: 2px;
+    background-color: #d3c2c2;
+    position: absolute;
+    top: 46%;
+    margin-top: 4rem;
+    left: 45%;
+}
+
+#feuigat .feuigat-title .feuigat-buttons {
+
+    padding: 6px 4em;
+}
+
+#feuigat .feuigat-title .feuigat-buttons button {
+    margin-right: 3rem;
+    padding: 7px 45px;
+}
+
+#feuigat .feuigat-title p {
+    margin-bottom: 3rem;
+    margin-right: 2rem;
+}
+
+footer {
+    background-image: linear-gradient(45deg, #4361c2 5%, #4fa49a 20%, #9DC66A);
+    background-attachment: fixed;
+    padding: 5rem 0;
+}
+
+footer .footer-description {
+    margin: 2rem 0;
+}
+
+footer .footer-icon i {
+    font-size: 30px;
+    margin: 0 1rem;
+    color: #fff;
+
+}
+
+@media screen and (max-width:992px) {
+    #about-lorem .lorem-title {
+        text-align: center;
+    }
+
+    #about-lorem .lorem-title h1:after {
+        content: "";
+        width: 17%;
+        position: absolute;
+        height: 1px;
+        background: gray;
+        top: 83%;
+        left: 41%;
+        margin-top: 43px;
+    }
+
+    #about-lorem .lorem-img {
+        margin-left: 70px;
+    }
+
+    #icons .icon-item {
+        height: 120px;
+        width: 120px;
+        border: 1px solid #fff;
+        transform: rotate(45deg);
+        margin-bottom: 98px;
+    }
+
+    #icons .icon-item i {
+        font-size: 53px;
+    }
+
+    #icons .right-side-col {
+        text-align: center;
+    }
+
+    #icons .right-side-col h2,
+    p {
+        font-size: 16px;
+    }
+
+    #icons .right-side-col .after-line:after {
+        content: "";
+        width: 20%;
+        height: 1px;
+        background-color: #d3c2c2;
+        position: absolute;
+        top: 100%;
+        margin-top: 26px;
+        left: 42%;
+    }
+}
+
+
+@media screen and (max-width:768px) {
+    #intro .intro-text .intro-title h2 {
+        font-size: 1.5em;
+    }
+
+    #about-lorem .lorem-title {
+        text-align: center;
+    }
+
+    #about-lorem .lorem-title h1:after {
+        content: "";
+        width: 17%;
+        position: absolute;
+        height: 1px;
+        background: gray;
+        top: 100%;
+        left: 40%;
+        margin-top: 34px;
+    }
+
+
+    #icons .first-icon-side {
+        margin-right: 20px;
+    }
+
+    #icons .right-side-col p {
+        color: rgb(184, 168, 168);
+    }
+
+    #icons .right-side-col {
+        text-align: center;
+    }
+
+    #icons .right-side-col .after-line:after {
+        content: "";
+        width: 20%;
+        height: 1px;
+        background-color: #d3c2c2;
+        position: absolute;
+        top: 100%;
+        margin-top: 26px;
+        left: 40%;
+    }
+
+    #icons .icon-item i {
+        transform: rotate(-45deg) translate(-25px, 22px);
+        color: #8f8f21;
+        font-size: 41px;
+    }
+
+    #icons .icon-item {
+        height: 90px;
+        width: 90px;
+        border: 1px solid #fff;
+        transform: rotate(45deg);
+        margin-bottom: 98px;
+    }
+
+
+    #adispising .card {
+        padding: 0 4rem;
+    }
+
+    #feuigat .feuigat-title .feuigat-buttons button {
+        margin-bottom: 1rem;
+    }
+}
